@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as Layout } from "./Layout.jsx";
+export { default as FirstSection } from "./FirstSection.jsx";
+export { default as Footer } from "./Footer.jsx";
+export { default as Lessons } from "./Lessons.jsx";
+export { default as StartUp } from "./StartUp.jsx";
+export { default as Jobs } from "./Jobs.jsx";
+export { default as Team } from "./Team.jsx";
+export { default as Projects } from "./Projects.jsx";
+export { default as Partners } from "./Partners.jsx";
+export { default as TeamMember } from "./TeamMember.jsx";
