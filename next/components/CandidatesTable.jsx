@@ -1,3 +1,4 @@
+// CandidatesTable is CandidateList container and used only in Jobs.jsx
 import React from "react";
 import { CandidateList, NoCandidates } from "./";
 const CandidatesTable = ({ filtered }) => {

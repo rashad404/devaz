@@ -1,3 +1,4 @@
+// Candidate list is item ul which used in onyl Candidate table.
 import React from "react";
 import { CandidateListItem } from "./";
 const CandidateList = ({ filtered }) => {

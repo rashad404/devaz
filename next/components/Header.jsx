@@ -46,7 +46,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-14 overflow-auto shadow-md">
+    <div className="h-14 shadow-md">
       <header className="fixed z-100 bg-white h-14 shadow-md  inset-x-0  top-0 ">
         <nav className="flex h-14 mx-auto max-w-6xl items-center justify-between px-4">
           <Link href="/">
@@ -58,7 +58,7 @@ const Header = () => {
 
           <ul className="hidden lg:flex text-gray-500">
             {navItems.map((navItem) => (
-              <NavItem navItem={navItem} />
+              <NavItem key={navItem} navItem={navItem} />
             ))}
           </ul>
 

@@ -7,7 +7,9 @@ const InvestorCard = ({ item }) => {
         Startup
       </p>
       <div className="space-y-10 p-2 text-center">
-        <span className="text-xl text-dimgray">{item.text}</span>
+        <p className="text-xl block text-dimgray hover:translate-x-80">
+          {item.text}
+        </p>
         <div className="flex text-left flex-col text-gray74">
           <span> Market: {item.market}</span>
           <span> Location: {item.location}</span>

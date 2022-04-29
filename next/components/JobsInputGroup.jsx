@@ -1,6 +1,6 @@
+// JobsInputGroup is used in Jobs.jsx and it contains search input and country selection.
 import React from "react";
 import { FiSearch } from "react-icons/fi";
-
 import { SelectCountry } from "./";
 const JobsInputGroup = ({ search, handleSearchChange }) => {
   return (

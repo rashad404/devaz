@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 const countries = [
   { value: "aze", name: "Azerbaijan" },
   { value: "en", name: "England" },
@@ -12,13 +12,15 @@ const countries = [
   },
 ];
 const SelectCountry = () => {
+  const [choice, setChoice] = useState("country");
+
   return (
     <select
       name="countries"
+      value={choice}
+      defaultValue={"Country"}
+      onChange={(e) => setChoice(e.target.value)}
       className="appearance-none outline-none rounded-md px-2 text-center text-suvagrey border bg-aliceblue border-blue">
-      <option value="" selected disabled hidden>
-        Country
-      </option>
       {countries.map((country, i) => (
         <option key={i} className="text-left" value={country.value}>
           {country.name}

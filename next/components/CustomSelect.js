@@ -1,6 +1,6 @@
+// It is a react component which used in Header.jsx
 import React from "react";
 import Select from "react-select";
-
 const CustomSelect = ({ options, onChange }) => {
   return (
     <Select
