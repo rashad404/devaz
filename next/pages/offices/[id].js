@@ -13,7 +13,7 @@ export default function Office({office}) {
 
             <div className="flex">
                 <div className="w-1/2 h-56 relative overflow-hidden rounded-lg">
-                    <img src={office.images[0].path} className="object-cover w-full h-full"></img>
+                    <img src={office.images.length > 0 ? office.images[0].path : ''} className="object-cover w-full h-full"></img>
                 </div>
 
                 <div className="w-full pl-14">
